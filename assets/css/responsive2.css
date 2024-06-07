@@ -1,0 +1,987 @@
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1380px
+    }
+}
+
+@media (min-width: 1400px) {
+    .new_home_container {
+        max-width: 1216px;
+    }
+}
+
+
+@media only screen and (max-width: 1440px) {
+    .addon_container .addon_box {
+        width: 49%
+    }
+
+    .card-box h2 {
+        font-size: 50px
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .card-box h2 {
+        font-size: 45px
+    }
+
+    .banner-text h1 {
+        font-size: 46px
+    }
+
+    .price-box .amount strong {
+        font-size: 24px
+    }
+
+    .sub-benifit {
+        padding: 0
+    }
+
+    .top-title h1 {
+        font-size: 50px;
+        margin-bottom: 30px
+    }
+
+    .top-title h2 {
+        font-size: 40px
+    }
+
+    .boost_me_area a.my_boost_profile_btn {
+        max-width: 500px;
+    }
+
+    a.my_boost_profile_btn .boost_me h4 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .buddypress-wrap .register-page .layout-wrap {
+        flex-direction: column
+    }
+
+    #buddypress .register-page .standard-form .layout-wrap .register-section {
+        width: 100% !important
+    }
+
+    .top-title h1 {
+        font-size: 45px
+    }
+
+    .top-title h2 {
+        font-size: 35px
+    }
+
+    .sub-plans .price-box {
+        margin-bottom: 30px;
+        height: auto
+    }
+
+    .banner-text h1 {
+        font-size: 40px
+    }
+
+    .live_stream_page .stream_top h5,
+    .live_stream_page h4 {
+        font-size: 30px;
+    }
+
+    .photos .profile-fields tbody {
+        flex-wrap: wrap;
+    }
+
+    .photos .profile-fields tr.field_type_image {
+        width: 50%;
+    }
+
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+    .why_text_area::after {
+        width: 435px;
+        height: 298px;
+        bottom: -50px;
+        z-index: -1;
+        right: -70px;
+    }
+
+    .why_text_area::before {
+        width: 304px;
+        height: 170px;
+        position: absolute;
+        top: -100px;
+    }
+
+    .why_text_area {
+        padding: 60px 50px;
+    }
+
+    .nav-ul {
+        column-gap: 15px;
+    }
+    .chat_area {
+        padding: 45px 20px;
+        padding-right: 110px;
+    }
+    
+    
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .main-header {
+        padding: 15px 0
+    }
+
+    .mission-statement h4,
+    .donation-text h4 {
+        font-size: 26px;
+    }
+
+    .donation-text {
+        text-align: center
+    }
+
+    .top-title h1 {
+        margin-bottom: 10px
+    }
+
+    .sub-benifit {
+        margin-top: 40px
+    }
+
+    .addon_container .addon_box {
+        width: 100%;
+        margin-bottom: 30px
+    }
+
+    div[id*=bps_accordion_form].ui-accordion form.bps-form>div {
+        width: 48%;
+    }
+
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+
+
+
+
+    /* MOBILE NAV start  */
+    /* MOBILE NAV start  */
+    /* MOBILE NAV start  */
+
+    .nav-area {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: -600px;
+        overflow-y: auto;
+        background-color: #000000;
+        z-index: 999;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .sub-menu li a {
+        color: #ffffff;
+        padding: 5px 30px;
+    }
+
+    .logo-area a {
+        max-width: 180px;
+    }
+
+    .logo-area a img {
+        width: 100%;
+    }
+
+    .mobi-nav-active {
+        display: block;
+        left: 0;
+    }
+
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .nav-ul {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .nav-ul>li>a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px 5px;
+        width: 100%;
+        position: relative;
+    }
+
+    .nav-ul li:hover .dropdown-arrow i {
+        transform: unset;
+    }
+
+    .nav-ul>li>a.active .dropdown-arrow i {
+        transform: rotate(180deg);
+    }
+
+    .dropdown-arrow {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--theme-color);
+        color: #fff;
+    }
+
+    .sub-menu {
+        position: unset;
+        width: 100%;
+        display: none;
+        visibility: visible;
+        opacity: 1;
+        background-color: transparent;
+    }
+
+    .nav-ul .dropdown-nav>a::after {
+        right: 30px;
+        font-size: 12px;
+    }
+
+    .nav-ul>li {
+        margin-right: 0;
+    }
+
+    .nav-ul li.dropdown-nav {
+        margin-right: 0;
+    }
+
+
+    .menu-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub-menu {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .dropdown-arrow {
+        margin-left: 5px;
+    }
+
+    /* MOBILE NAV END  */
+    /* MOBILE NAV END  */
+    /* MOBILE NAV END  */
+
+    .banner_text_row {
+        row-gap: 30px;
+    }
+    .chat_area {
+        padding-right: 20px;
+    }
+
+
+
+
+    .why_text_area {
+        margin-left: 0;
+        min-width: unset;
+    }
+
+    .why_mexicano>.row {
+        row-gap: 130px;
+    }
+
+    .why_text_area img {
+        width: 50%;
+        height: 90%;
+    }
+
+    .streamer_card p {
+        text-align: center;
+    }
+
+    .streamer_card_area .row {
+        row-gap: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        min-height: auto;
+        padding: 160px 0 60px
+    }
+
+    .mx_home_banner{
+        padding-bottom: 0;
+    }
+
+    .banner-text h1 {
+        font-size: 28px
+    }
+
+    .banner-text h4 {
+        font-size: 18px
+    }
+
+    .main-btn {
+        min-width: 180px
+    }
+
+    .banner-form .radio-box {
+        padding: 12px;
+        font-size: 18px;
+        min-width: 120px
+    }
+
+    .main-logo {
+        max-width: 280px
+    }
+
+    .main-btn {
+        min-width: 150px
+    }
+
+    .card-box h2 {
+        font-size: 35px
+    }
+
+    .footer {
+        padding: 60px 0
+    }
+
+    .footer-logo {
+        max-width: 200px
+    }
+
+    .footer-nav li a {
+        font-size: 24px;
+        min-width: 150px;
+        padding: 15px
+    }
+
+    .bg-section {
+        height: auto;
+        padding: 120px 0
+    }
+
+    .editfield .datebox-selects {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .registration.ast-plain-container.ast-no-sidebar #primary {
+        padding: 120px 0 80px
+    }
+
+    #main .bp_register h1 {
+        font-size: 28px
+    }
+
+    .register-section .bp-heading {
+        font-size: 24px;
+        margin: 0 !important;
+        margin-bottom: 15px !important
+    }
+
+    .buddypress-wrap .signup-form label,
+    .register-page .signup-form .editfield fieldset legend {
+        font-size: 16px
+    }
+
+    .buddypress-wrap .standard-form .register-section input,
+    .buddypress-wrap .standard-form .register-section select {
+        height: 45px;
+        font-size: 16px
+    }
+
+    .register-page .register-section.extended-profile {
+        margin-top: 30px
+    }
+
+    .wp-pwd {
+        flex-wrap: wrap
+    }
+
+    .wp-pwd .password-input-wrapper {
+        width: 60%;
+        position: relative
+    }
+
+    .register-page .signup-form .wp-pwd button {
+        padding: 0 12px
+    }
+
+    .mission-statement h4,
+    .donation-text h4 {
+        font-size: 24px;
+    }
+
+    body.buddypress.register article.bp_register {
+        width: 100%
+    }
+
+    body.register #page #primary .entry-header h1.entry-title,
+    body.register #page #primary .entry-header span {
+        font-size: 26px
+    }
+
+    body.register #page #primary .entry-header h1.entry-title {
+        margin-right: 10px
+    }
+
+    body.register #page #primary .entry-header span a {
+        margin-left: 8px
+    }
+
+    #gt_float_wrapper {
+        transform: scale(.6);
+        left: 0 !important;
+        bottom: 0 !important
+    }
+
+    .live_stream_page .stream_top h5,
+    .live_stream_page h4 {
+        font-size: 22px;
+    }
+
+    .live_stream_page .main-btn {
+        padding: 15px 0;
+    }
+
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+
+   
+    .mx_header_area_main {
+        padding: 35px 0 0;
+    }
+
+    .mx_header_area {
+        align-items: center;
+    }
+    .logo-area a {
+        max-width: 130px;
+    }
+
+    .banner {
+        padding: 220px 0 0;
+    }
+
+    .banner_button_area {
+        text-align: start;
+    }
+
+    .banner_text_area h1 {
+        font-size: 22px;
+    }
+
+    .banner_text_area h1 span {
+        font-size: 28px;
+    }
+
+    .banner_text_row {
+        row-gap: 15px;
+    }
+
+    .mx_btn_main {
+        line-height: 40px;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+
+    .why_mexicona_area_main {
+        padding: 50px 0 80px;
+    }
+
+    .why_mexicano>.row {
+        row-gap: 70px;
+    }
+
+    .chat_area {
+        background-color: #000000;
+        padding: 40px 20px;
+    }
+
+    .why_mexicano {
+        padding: 0;
+    }
+
+    .why_text_area::after {
+        width: 135px;
+        height: 148px;
+        bottom: -80px;
+        right: 0;
+    }
+
+    .why_text_area::before {
+        width: 104px;
+        height: 60px;
+        position: absolute;
+        top: -50px;
+    }
+
+    .why_text_area img {
+        width: 50%;
+    }
+
+    .why_text_area h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .why_text_area p {
+        font-size: 16px;
+    }
+
+    .why_text_area {
+        padding: 30px 20px;
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+    }
+
+    .common_heading {
+        margin-bottom: 35px;
+    }
+
+    .bg_image_area {
+        width: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .feature_card h3 {
+        font-size: 20px;
+    }
+
+    .resource_area_main {
+        padding: 50px 0;
+    }
+
+    .contentSwiper, .streamerSwiper {
+        padding-bottom: 70px;
+    }
+
+    .slide_card .date_on_card {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .slide_card p {
+        font-size: 20px;
+    }
+
+    .content_slider_area .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+        margin: 7px !important;
+    }
+
+    .content_slider_area .swiper-pagination-bullet-active {
+        width: 7px;
+        height: 7px;
+    }
+
+
+    .streamer_area_main {
+        padding: 50px 0;
+    }
+
+    .streamer_card p {
+        font-size: 20px;
+    }
+
+    .streamer_card_area .row {
+        row-gap: 40px;
+    }
+
+    .card_image_area {
+        margin-bottom: 10px;
+    }
+
+    .new_footer .footer-logo {
+        max-width: 150px;
+    }
+
+    .new_footer .footer-nav li a {
+        font-size: 18px;
+    }
+
+    .new_footer .footer .copyright-text {
+        font-size: 12px;
+    }
+
+    .new_footer .footer-nav {
+        margin: 20px 0;
+    }
+
+    .new_footer {
+        padding: 50px 0;
+    }
+
+    .new_footer .copyright-text {
+        font-size: 12px;
+    }
+    .chat {
+        padding: 0;
+    }
+
+    /* FAQs AREA */
+    .faqs-area .accordion-container .common_heading {
+        margin-bottom: 30px;
+    }
+    .faqs-area-main {
+        padding: 50px 0;
+    }
+
+    .faqs-area .set>a{
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+    .faqs-area .content{
+        padding: 10px 16px;
+    }
+    .faqs-area .content p{
+        font-size: 14px;
+    }
+
+    .faqs-area .set>a svg {
+        width: 14px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .main-btn {
+        padding: 14px 0;
+        font-size: 16px
+    }
+
+    .card-box .small-img {
+        bottom: 30px;
+        right: 30px
+    }
+
+    .card-box h2 {
+        font-size: 28px
+    }
+
+    .card-box p {
+        font-size: 20px;
+        margin-top: 25px
+    }
+
+    .card-box .main-btn {
+        margin-top: 25px
+    }
+
+    .card-box .small-img {
+        max-width: 60px
+    }
+
+    .matches-slider-sec {
+        margin-top: 30px;
+        padding-bottom: 0
+    }
+
+    .match-single {
+        height: 650px
+    }
+
+    .top-profile-box {
+        margin-bottom: 15px
+    }
+
+    .top-profile-box,
+    .meta-box {
+        padding: 12px
+    }
+
+    .top-profile-box,
+    .meta-box,
+    .prompts-card {
+        border-width: 1px
+    }
+
+    .top-profile-box h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        font-family: 'Neuton'
+    }
+
+    .top-profile-box h3 span {
+        font-size: 12px;
+        margin-top: 4px
+    }
+
+    .match-single a:not(.cross-user) img {
+        height: 260px
+    }
+
+    .heart-img,
+    .cross-user {
+        width: 40px;
+        height: 40px;
+        padding: 5px
+    }
+
+    .super-like-heart-img .user_like_count {
+        font-size: 12px;
+    }
+
+    .horizontal-meta {
+        padding: 5px 0;
+        margin-bottom: 8px
+    }
+
+    .horizontal-meta::-webkit-scrollbar {
+        height: 3px
+    }
+
+    .match-single::-webkit-scrollbar {
+        width: 0
+    }
+
+    .tm-item {
+        padding: 0 10px;
+        align-items: center
+    }
+
+    .tm-item img {
+        width: 15px;
+        height: 15px
+    }
+
+    .tm-item span {
+        font-size: 14px
+    }
+
+    .vertical-meta .tm-item {
+        padding: 8px 10px;
+        align-items: center
+    }
+
+    .prompts-card {
+        margin-top: 12px;
+        padding: 12px
+    }
+
+    .prompts-card h4 {
+        font-size: 14px;
+        line-height: 1.2
+    }
+
+    .prompts-card h3 {
+        font-size: 24px
+    }
+
+    .photos .profile-fields tr.field_type_image {
+        width: 100%;
+        margin: 0;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 480px) {
+    .main-logo {
+        max-width: 180px
+    }
+
+    .card-box h2 {
+        font-size: 20px;
+        line-height: 1.3
+    }
+
+    .main-btn {
+        padding: 14px 25px;
+        font-size: 14px;
+        min-width: auto
+    }
+
+    .footer-nav ul {
+        flex-direction: column
+    }
+
+    .footer-nav {
+        margin: 40px 0
+    }
+
+    .banner-form .radio-box {
+        padding: 10px;
+        font-size: 14px;
+        min-width: 80px
+    }
+
+    .banner-text h1 {
+        font-size: 20px
+    }
+
+    .banner-text h4 span {
+        height: 30px
+    }
+
+    .banner-text h4 {
+        font-size: 16px
+    }
+
+    .banner-form h5 {
+        font-size: 20px
+    }
+
+    .radio-box input {
+        width: 15px;
+        height: 15px;
+        margin-right: 8px
+    }
+
+    .wp-pwd .password-input-wrapper,
+    .buddypress-wrap #pass-strength-result {
+        width: 100% !important;
+        margin: 0
+    }
+
+    .signup-form .submit {
+        text-align: center
+    }
+
+    .signup-form .submit input#submit {
+        font-size: 16px;
+        min-width: 200px;
+        padding: 15px 20px
+    }
+
+    .bg-section {
+        background-attachment: scroll;
+        padding: 80px 0
+    }
+
+    .bg-section .justify-content-end .card-box h2 {
+        text-align: right
+    }
+
+    .mission-statement p {
+        font-size: 18px
+    }
+
+    .mission-statement h4,
+    .donation-text h4 {
+        font-size: 18px;
+    }
+
+    #buddypress .register-section .datebox-selects {
+        flex-wrap: wrap
+    }
+
+    .top-title h1 {
+        font-size: 30px
+    }
+
+    .top-title h2 {
+        font-size: 22px
+    }
+
+    .sub-benifit {
+        margin-top: 20px
+    }
+
+    .sub-benifit li {
+        font-size: 18px;
+        margin-bottom: 8px
+    }
+
+    .sub-benifit li span {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px
+    }
+
+    .sub-plans {
+        margin-top: 30px
+    }
+
+    .sub-benifit li i {
+        font-size: 14px
+    }
+
+    .addon_container .addon_box .plans_block {
+        flex-wrap: wrap
+    }
+
+    .addon_container .addon_box .plans_block a {
+        width: 100%;
+        margin-bottom: 15px
+    }
+
+    a.my_boost_profile_btn .boost_me h4 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    a.my_boost_profile_btn .boost_me span {
+        width: 50px;
+        height: 50px;
+    }
+
+    .addon_container .addon_box .top_block h2 {
+        font-size: 18px;
+    }
+
+    .live_stream_page .stream_top h5 {
+        font-size: 20px;
+    }
+
+    .live_stream_page .main-btn {
+        min-width: 150px;
+    }
+
+    div[id*=bps_accordion_form].ui-accordion form.bps-form>div {
+        width: 100%;
+    }
+
+    .bp-profile-wrapper.need-separator .group-separator-block {
+        padding: 0 12px;
+    }
+
+    #buddypress div.bp-profile-content table.profile-fields tr td.label {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .buddypress-wrap table.profile-fields td.data>p,
+    #buddypress table.profile-fields tr td.label {
+        font-size: 13px;
+    }
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+    /* NEW HOME PAGE CSS  */
+    .why_text_area img{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .card-box p {
+        font-size: 16px
+    }
+
+    .footer-nav li a {
+        font-size: 16px;
+        margin-top: 12px
+    }
+}
